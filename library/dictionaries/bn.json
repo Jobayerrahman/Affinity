@@ -1,0 +1,42 @@
+{
+    "lang": "bn",
+    "home" : "হোম",
+    "shop" : "শপ",
+    "about" : "আমাদের সম্পর্কে",
+    "contact" : "যোগাযোগ করুন",
+    "support" : "নিবেদিত সাপোর্ট",
+
+    "language" : "ভাষা",
+    "bangla" : "বাংলা",
+    "english" : "ইংলিশ",
+
+    "all_categories":"সকল ক্যাটাগরি",
+
+    "shop_now" : "এখনই কিনুন",
+    "wishlist": "ইচ্ছেতালিকা",
+    "login": "লগইন",
+
+    "shop_by_category":"বিভাগ দ্বারা কেনাকাটা",
+    "top_new_arrival": "শীর্ষ নতুন আগমন",
+    "trending_products": "চলমান পণ্য",
+
+    "cart": "কার্ট",
+    "account": "অ্যাকাউন্ট",
+    "free_shipping": "ফ্রি শিপিং",
+    "money_returns": "মানি রিটার্নস",
+    "customer": "কাস্টমার",
+    "days": "দিনে",
+    "order_over": "অর্ডার ওভার",
+    "solutions": "সলিউশনস",
+    "marketing": "মার্কেটিং",
+    "analitycs": "এনালিটিক্স",
+    "commerce": "কমার্স",
+    "insights": "ইনসাইটস",
+    "pricing": "প্রাইসিং",
+    "documentation": "ডকুমেন্টেশন",
+    "guides": "গাইড",
+    "api_status": "অপি স্টেটাস",
+    "welcome_back_customer": "ওয়েলকাম ব্যাক কাস্টমার",
+    "create_an_account": "ক্রিটে এবং একাউন্ট",
+    "register_for_new_customer": "রেজিস্টার ফর নিউ কাস্টমার"
+}

@@ -1,0 +1,43 @@
+{
+    "lang": "en",
+
+    "home" : "Home",
+    "shop" : "Shop",
+    "about" : "About",
+    "contact" : "Contact",
+    "support": "Dedicated Support",
+    
+    "language" : "Language",
+    "bangla" : "Bangla",
+    "english" : "English",
+
+    "all_categories":"All Categories",
+    
+    "shop_now" : "Shop now",
+    "wishlist": "Wishlish",
+    "login": "LOGIN",
+
+    "shop_by_category":"SHOP BY CATEGORY",
+    "top_new_arrival": "TOP NEW ARRIVAL",
+    "trending_products": "TRENDING PRODUCTS",
+    
+    "cart": "Cart",
+    "account": "Account",
+    "free_shipping": "Free Shipping",
+    "money_returns": "Money Returns",
+    "customer": "Customer",
+    "days": "days",
+    "order_over": "Order over",
+    "solutions": "Solutions",
+    "marketing": "Marketing",
+    "analitycs": "Analitycs",
+    "commerce": "Commerce",
+    "insights": "Insights",
+    "pricing": "Pricing",
+    "documentation": "Documentation",
+    "guides": "Guides",
+    "api_status": "API Status",
+    "welcome_back_customer": "welcome back customer",
+    "create_an_account": "CREATE AN ACCOUNT",
+    "register_for_new_customer": "Register for new cosutumer"
+  }
