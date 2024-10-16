@@ -15,7 +15,7 @@ function ProductCard({photo,name}) {
 
                 <div className='absolute top-[18px] left-[8px] p-1 bg-[#f59e0b] flex justify-between items-center'>
                     <h2 className='text-[12px] font-semibold text-white'>30% Off</h2>
-                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faHeart} />
+                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faHeart } />
                 </div>
             </div>
             <div className="bg-[#ffde59] text-slate-900 mt-4 mb-2 w-min px-[6px] py-[4px] rounded-[3px]">
