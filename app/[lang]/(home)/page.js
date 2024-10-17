@@ -4,13 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKey } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import ProductList from "@/app/component/products/ProductList";
+import TopBanner from "@/app/component/banner/TopBanner/TopBanner";
 
 export default async function Home({params: {lang}}) {
   const dictionaries = await getDictionary(lang)
 
   return (
     <main>
-      <div className="w-full py-10">
+      <div className="w-full">
+        <TopBanner/>
         {/* <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl w-11/12 lg:w-10/12 max-w-7xl py-3 lg:px-2 lg:py-3 mx-auto">
           <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Affinity Home Page</h3>
           <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">

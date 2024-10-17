@@ -5,9 +5,10 @@ import logo from "@/public/logo/logo5.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import ProductSearch from "../products/ProductSearch";
 
 
 function TopHeader(props) {
@@ -25,10 +26,13 @@ function TopHeader(props) {
                         />
                     </Link>
                 </div>
-                <div className="flex justify-between items-center gap-3 text-slate-900 dark:text-slate-100">
-                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faWhatsapp} />
-                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faFacebook} />
-                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faInstagram} />
+                <div className="w-3/6 sm:w-2/6">
+                    <ProductSearch/>
+                </div>
+                <div className="flex justify-between items-center gap-4 text-slate-900 dark:text-slate-100">
+                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faUser} />
+                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faHeart} />
+                    <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faBagShopping} />
                 </div>
             </div>
         </div>

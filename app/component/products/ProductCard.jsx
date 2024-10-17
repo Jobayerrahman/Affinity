@@ -13,8 +13,10 @@ function ProductCard({photo,name}) {
                 ease-out transform rounded-md`}
                 style={{backgroundImage:`url(${photo})`}}>
 
-                <div className='absolute top-[18px] left-[8px] p-1 bg-[#f59e0b] flex justify-between items-center'>
+                <div className='absolute top-[18px] left-[8px] p-1 bg-[#f59e0b]'>
                     <h2 className='text-[12px] font-semibold text-white'>30% Off</h2>
+                </div>
+                <div className='absolute top-[18px] right-[8px] p-1 text-slate-100'>
                     <FontAwesomeIcon className="hidden sm:block w-[18px] h-[18px] lg:w-[20px] lg:h-[20px] cursor-pointer" icon={faHeart } />
                 </div>
             </div>

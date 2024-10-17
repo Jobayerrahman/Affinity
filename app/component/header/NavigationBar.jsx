@@ -108,7 +108,7 @@ function NavigationBar({dict}) {
                     </button>
                 </div>
                 <div class="flex justify-around items-center hidden w-full md:flex md:w-full md:order-1 text-slate-900 dark:text-slate-100" >                    
-                    <div className="flex items-center justify-center md:w-1/2 md:gap-2 lg:gap-5 lg:w-8/12 text-slate-900 dark:text-slate-100">
+                    <div className="flex items-center justify-center md:w-1/2 md:gap-2 lg:gap-5 lg:w-10/12 text-slate-900 dark:text-slate-100">
                         <div className="flex items-center gap-4">
                             <Link href='/'>
                                 <h2 className="md:text-[12px] lg:text-[14px] font-semibold hover:text-[#ffde59] hover:font-bold">{dict.home}</h2>
@@ -125,20 +125,20 @@ function NavigationBar({dict}) {
                                 
                         </div>
                     </div>
-                    <div className="flex items-center justify-between w-full gap-2 md:w-1/2 lg:gap-5 lg:w-4/12">
+                    <div className="flex items-center justify-end w-full gap-2 md:w-1/2 lg:gap-5 lg:w-2/12">
                         <div className="flex items-center justify-between py-2 cursor-pointer">
                             <div className="relative">
-                                <div className="flex items-center gap-2">
-                                    <FontAwesomeIcon className="w-[14px] h-[14px] md:w-[14px] md:h-[14px] lg:block" icon={faPhone} />
+                                <div className="flex items-center gap-1">
+                                    <FontAwesomeIcon className="w-[12px] h-[12px] md:w-[12px] md:h-[12px] lg:block" icon={faPhone} />
                                     <h2 className="md:text-[12px] lg:text-[14px] lg:hidden xl:block font-semibold">+88014-05811201</h2>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center cursor-pointer">
+                        {/* <div className="flex items-center justify-center cursor-pointer">
                             <div className="relative">
                                 <LanguageSwitcher dict={dict}/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
