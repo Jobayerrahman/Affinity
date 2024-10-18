@@ -4,10 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKey } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import ProductList from "@/app/component/products/ProductList";
+
+
 import TopBanner from "@/app/component/banner/TopBanner/TopBanner";
+import MidBanner from "@/app/component/banner/MidBanner/MidBanner";
 import MenProduct from "@/app/component/products/men/MenProduct";
 import WomenProduct from "@/app/component/products/women/WomenProduct";
 import AccessoryProduct from "@/app/component/products/accessory/AccessoryProduct";
+
+import female from '@/public/Image/female-3piece.jpg';
+import male from '@/public/Image/man-pant.jpg';
+import winter from '@/public/Image/man-jacket.jpg';
 
 export default async function Home({params: {lang}}) {
   const dictionaries = await getDictionary(lang)
@@ -31,6 +38,19 @@ export default async function Home({params: {lang}}) {
         </div>
         <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
           <WomenProduct/>
+        </div>
+        <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
+          <div className="flex justify-between items-center gap-2">
+            <div className="">
+              <MidBanner image={female} title='Must-Haves' heading='Female Fashion' link='/'/>
+            </div>
+            <div className="">
+              <MidBanner image={male} title='Fashion Essentials' heading={`Latest Men's`} link='/'/>
+            </div>
+            <div className="">
+              <MidBanner image={winter} title='collections' heading='Winter Sale' link='/'/>
+            </div>
+          </div>
         </div>
         <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
           <AccessoryProduct/>

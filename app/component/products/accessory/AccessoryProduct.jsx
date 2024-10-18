@@ -73,7 +73,7 @@ function AccessoryProduct(props) {
         ],
     };
     return (
-        <section className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-10">
+        <section className="lg:px-1 py-10">
                 <TitleHeader title='Accessory Products'>
                   <div className="flex justify-between items-center bg-slate-100 p-1 rounded-lg gap-3">
                     <button onClick={()=>setCategory('men')} className={`py-2 px-4 cursor-pointer font-semibold text-slate-700 dark:text-slate-100 ${category ==='men' ? 'bg-[#cbd5e1]' : 'bg-transparent'} rounded-md uppercase`}>Men</button>
