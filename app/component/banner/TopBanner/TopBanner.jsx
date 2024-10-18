@@ -5,6 +5,7 @@ import background from '@/public/banner/BannerBackground.png'
 import bannerimage01 from '@/public/banner/BannerImage01.png'
 import bannerimage02 from '@/public/banner/BannerImage02.png'
 import bannerimage03 from '@/public/banner/BannerImage03.png'
+import bannerimage04 from '@/public/banner/BannerImage04.png'
 
 function TopBanner(props) {
 
@@ -80,7 +81,7 @@ function TopBanner(props) {
                             alt=""
                             width={1500}
                             height={1500}
-                            style={{width:'100%', height:'700px'}}
+                            style={{width:'600px', height:'700px'}}
                         />
                     </div>
                 </div>
@@ -106,7 +107,7 @@ function TopBanner(props) {
                             alt=""
                             width={1500}
                             height={1500}
-                            style={{width:'100%', height:'700px'}}
+                            style={{width:'600px', height:'700px'}}
                         />
                     </div>
                 </div>
@@ -132,7 +133,7 @@ function TopBanner(props) {
                             alt=""
                             width={1500}
                             height={1500}
-                            style={{width:'100%', height:'700px'}}
+                            style={{width:'600px', height:'700px'}}
                         />
                     </div>
                 </div>

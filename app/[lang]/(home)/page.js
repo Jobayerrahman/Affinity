@@ -5,6 +5,9 @@ import { faKey } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import ProductList from "@/app/component/products/ProductList";
 import TopBanner from "@/app/component/banner/TopBanner/TopBanner";
+import MenProduct from "@/app/component/products/men/MenProduct";
+import WomenProduct from "@/app/component/products/women/WomenProduct";
+import AccessoryProduct from "@/app/component/products/accessory/AccessoryProduct";
 
 export default async function Home({params: {lang}}) {
   const dictionaries = await getDictionary(lang)
@@ -24,7 +27,13 @@ export default async function Home({params: {lang}}) {
           </div>
         </div> */}
         <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
-          <ProductList/>
+          <MenProduct/>
+        </div>
+        <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
+          <WomenProduct/>
+        </div>
+        <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
+          <AccessoryProduct/>
         </div>
       </div>
     </main>

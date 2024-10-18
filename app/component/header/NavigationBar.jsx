@@ -19,7 +19,7 @@ function NavigationBar({dict}) {
 
 
     return (
-        <nav className="bg-slate-100 dark:bg-slate-700">
+        <nav className="bg-slate-50 dark:bg-slate-700">
             <div className="flex items-center justify-between w-11/12 lg:w-10/12 max-w-7xl py-2 lg:px-2 lg:py-2 mx-auto">
                 <div className="mr-4 w-[200px] h-[100%] relative">
                     <button 
