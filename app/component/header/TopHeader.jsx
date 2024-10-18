@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/logo/logo5.png";
+import logo from "@/public/logo/logo2.png";
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -15,6 +15,7 @@ import AccessoryProduct from "@/app/component/products/accessory/AccessoryProduc
 import female from '@/public/Image/female-3piece.jpg';
 import male from '@/public/Image/man-pant.jpg';
 import winter from '@/public/Image/man-jacket.jpg';
+import Footer from "@/app/component/footer/Footer";
 
 export default async function Home({params: {lang}}) {
   const dictionaries = await getDictionary(lang)
@@ -55,6 +56,7 @@ export default async function Home({params: {lang}}) {
         <div className="w-11/12 lg:w-10/12 max-w-7xl mx-auto lg:px-1 py-4">
           <AccessoryProduct/>
         </div>
+        <Footer/>
       </div>
     </main>
   );
